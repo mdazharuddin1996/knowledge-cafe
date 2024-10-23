@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "cover_title": "The Silent Echo",
+    "cover_photo": "../src/assets/images/1.jpg",
+    "author_img": "../src/assets/images/girl1.jpg",
+    "posted_time": "2024-09-15T10:30:00Z",
+    "reading_time": "5 mins"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "cover_title": "Whispers in the Wind",
+    "cover_photo": "../src/assets/images/2.png",
+    "author_img": "../src/assets/images/girl2.jpg",
+
+    "posted_time": "2024-09-16T08:45:00Z",
+    "reading_time": "7 mins"
+  },
+  {
+    "id": 3,
+    "name": "Michael Brown",
+    "cover_title": "Shadows of Time",
+    "cover_photo": "../src/assets/images/3.png",
+    "author_img": "../src/assets/images/boy2.png",
+
+    "posted_time": "2024-09-17T12:20:00Z",
+    "reading_time": "6 mins"
+  },
+  {
+    "id": 4,
+    "name": "Emily Davis",
+    "cover_title": "Beyond the Horizon",
+    "cover_photo": "../src/assets/images/4.jpg",
+    "author_img": "../src/assets/images/boy1.png",
+
+    "posted_time": "2024-09-18T14:10:00Z",
+    "reading_time": "4 mins"
+  }
+
+]
