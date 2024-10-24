@@ -1,9 +1,11 @@
 import PropTypes from 'prop-types';
-import { CiBookmark } from "react-icons/ci";const Blog = ({ blog, handleAddToBookmarks,handleAddToReadingTime}) => {
+import { CiBookmark } from "react-icons/ci";
+
+const Blog = ({ blog, handleAddToBookmarks, handleAddToReadingTime }) => {
   
 // console.log(blog)
 
-  const { author_img,reading_time
+  const {id, author_img,reading_time
 ,cover_title,name,cover_photo
   } = blog;
   
@@ -41,7 +43,7 @@ import { CiBookmark } from "react-icons/ci";const Blog = ({ blog, handleAddToBoo
       </div>
 
       <div className='mt-2'>
-        <button onClick={()=>handleAddToReadingTime(blog.reading_time)} className='font-bold text-purple-600 underline text-2xl'>Mark a read</button>
+        <button onClick={()=>handleAddToReadingTime(id,reading_time)} className='font-bold text-purple-600 underline text-2xl'>Mark a read</button>
       </div>
     </div>
   );

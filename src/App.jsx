@@ -10,9 +10,14 @@ function App() {
   const [bookmarks, setBookmarks] = useState([]);
   const [readingTime, setReadingTime] = useState(0);
 
-  const handleAddToReadingTime = (time) => {
-    // console.log(time)
+  const handleAddToReadingTime = (id,time) => {
+    console.log(id,time,'clicked')
     const newReadingTime = parseFloat(readingTime) + parseFloat(time);
+
+    const remainingBookmarks = bookmarks.filter(bookmark => bookmark.id !== id);
+
+    setBookmarks(remainingBookmarks)
+
 ;
     setReadingTime(newReadingTime)
   }
